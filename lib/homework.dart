@@ -1,14 +1,14 @@
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
-import 'package:homework3/guess.dart';
+import 'package:hw_3/guess.dart';
 
 class hw_3 extends StatefulWidget{
 
   @override
-  State<hw_3> createState() => _hw3State();
+  State<hw_3> createState() => _hw_3State();
 }
 
-class _hw3State extends State<hw3> {
+class _hw_3State extends State<hw_3> {
   var _input = '';
   var _message = '';
   var count = 0;
@@ -163,7 +163,7 @@ class _hw3State extends State<hw3> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset('assets/images/guess_logo.png', width: 80.0),
-            SizedBox(height: 24.0),
+            SizedBox(height: 16.0),
 
             Text('Guess The Number',
               style: TextStyle(

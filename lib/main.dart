@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:homework3/homework.dart';
+import 'package:hw_3/homework.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: hw3(),
+      home: hw_3(),
     );
   }
 }
